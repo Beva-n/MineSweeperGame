@@ -80,7 +80,7 @@ class Method_Library:
     def draw_title_view(self, screen):
         screen.fill((119, 118, 196))
         welcome_text = self.size_22_text.render("Welcome to", False, (0, 0, 0))
-        title_text = self.size_50_text.render(f"Name TBD", False, (0, 0,0))
+        title_text = self.size_50_text.render(f"Minesweeper Game", False, (0, 0,0))
         instruction_text = self.size_16_text.render("Press any key to continue", False, (0, 0, 0))
         screen.blit(welcome_text, (210, 220))
         screen.blit(title_text, (170, 240))
